@@ -1,4 +1,4 @@
-class IconPathConstants():
+class IconPathConstants(object):
     
     NO_SIGNAL = "./icon_set/no_icon"
     WEAK_SIGNAL = "./icon_set/signal_1.bmp"
@@ -10,4 +10,3 @@ class IconPathConstants():
 
     def __init__(self, *args):
         super(IconPathConstants, self).__init__(*args)
-        
